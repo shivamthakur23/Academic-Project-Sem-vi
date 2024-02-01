@@ -1,0 +1,9 @@
+<!-- res/drawable/button_bg.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="8dp" /> <!-- Optional: for rounded corners -->
+    <solid android:color="@android:color/transparent" />
+    <stroke
+        android:width="5dp"
+        android:color="@color/white" /> <!-- Change @color/outline_color to your desired outline color -->
+</shape>
